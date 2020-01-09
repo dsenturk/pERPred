@@ -1,0 +1,45 @@
+Package: pERPred
+Title: Principle 'ERP' Reduction
+Version: 0.0.0.9000
+Authors@R: c(person(given = "Emilie", 
+                  family = "Campos", 
+                  email = "emjcampos00@gmail.com", 
+                  role = c("aut", "cre")), 
+              person("Chad", "Hazlett", role = c("aut")),
+              person("Damla", "Senturk", role = c("aut")))
+Description: What the package does (one paragraph).
+Depends: 
+  R (>= 3.5.0)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    matrixcalc,
+    magrittr,
+    fastICA,
+    factoextra, 
+    broom,
+    stats,
+    dplyr, 
+    purrr, 
+    tidyr, 
+    tibble, 
+    ggplot2,
+    grDevices, 
+    gridExtra, 
+    shiny, 
+    shinythemes, 
+    stringr, 
+    plyr, 
+    kableExtra, 
+    knitr
+RoxygenNote: 7.0.0
+Suggests: 
+    rmarkdown, 
+    tidyverse, 
+    KRLS2, 
+    LaplacesDemon, 
+    ica,
+    here, 
+    latex2exp
+VignetteBuilder: knitr
